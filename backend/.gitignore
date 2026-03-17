@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Egg Info
+*.egg-info/
+
+# Temp Folder
+temp
+
+# Celery Beat Schedule
+celerybeat-schedule
+data
