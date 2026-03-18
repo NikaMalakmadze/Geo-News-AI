@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml"
+version = "0.1.0"
+dependencies = [
+	"shared",
+	"annotated-types==0.7.0",
+	"joblib==1.5.3",
+	"numpy==2.4.0",
+	"pydantic==2.12.5",
+	"pydantic-settings==2.12.0",
+	"pydantic_core==2.41.5",
+	"python-dotenv==1.2.1",
+	"scikit-learn==1.8.0",
+	"scipy==1.16.3",
+	"threadpoolctl==3.6.0",
+	"typing-inspection==0.4.2",
+	"typing_extensions==4.15.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["input*"]
