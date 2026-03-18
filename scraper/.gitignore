@@ -1,0 +1,23 @@
+# ChromeDriver
+chromedriver
+
+# OutputFolder
+output
+
+# Hashes Folder
+data
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Egg Info
+*.egg-info/
